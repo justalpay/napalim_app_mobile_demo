@@ -12,6 +12,16 @@
   <img src="https://img.shields.io/badge/License-Proprietary-purple" alt="License" />
 </p>
 
+<p align="center">
+  <img src="assets/screenshots/preview_banner.png" alt="NAPALIM Mobile App Preview" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/screen_discover.png" alt="Keşfet ve Eşleşme" width="46%" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/screen_activities.png" alt="72 Saatlik Etkinlikler" width="46%" />
+</p>
+
 ---
 
 ## ✨ Öne Çıkan Özellikler
@@ -64,7 +74,11 @@
 
 ```
 napalim-mobile/
-├── assets/                  # Maskotlar, kullanıcı görselleri ve uygulama ikonları
+├── assets/                  # Maskotlar, kullanıcı avatarları ve uygulama ikonları
+│   └── screenshots/         # UI vitrin banner'ları ve ekran görüntüleri
+├── docs/                    # Mimari belgeler, ajan yönergeleri ve migrasyon planı
+│   ├── AGENTS.md
+│   └── MIGRATION_PLAN.md
 ├── src/
 │   ├── components/          # Ortak UI bileşenleri (SwipeableBottomSheet, ChatRoomModal, InAppToast vb.)
 │   ├── context/             # AppContext (Global State, Auth, Pinler, Sohbetler, İstatistikler)
@@ -81,6 +95,7 @@ napalim-mobile/
 │   └── types/               # TypeScript veri modelleri
 ├── .env.example             # Çevre değişkenleri şablonu (Gizli anahtarlar korunur)
 ├── App.tsx                  # Kök bileşen ve sağlayıcılar
+├── LICENSE                  # Telif hakları ve lisans sözleşmesi
 └── package.json             # Bağımlılıklar ve scriptler
 ```
 
@@ -139,3 +154,12 @@ Bu proje güvenlik standartlarına uygun şekilde yapılandırılmıştır:
 - [ ] Canlı WebSocket Mesajlaşma Altyapısı
 - [ ] Gerçek OAuth Giriş & Güvenli Kimlik Doğrulama (JWT)
 - [ ] PostGIS ile Canlı Konum Sorguları
+
+---
+
+## 📄 Lisans (License)
+
+Bu proje ve beraberindeki tüm fikri mülkiyet hakları **Proprietary (Kapalı Kaynak / Telif Hakları Saklıdır)** olarak lisanslanmıştır.  
+**Copyright © 2026 Alpay (NAPALIM). All rights reserved.**
+
+Yazılı izin alınmaksızın kaynak kodlarının, tasarımların, varlıkların veya dokümantasyonun ticari ya da gayriticari olarak kopyalanması, çoğaltılması, dağıtılması veya tersine mühendisliğe tabi tutulması kesinlikle yasaktır. Detaylar için [LICENSE](LICENSE) belgesini inceleyebilirsiniz.
